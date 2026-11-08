@@ -47,7 +47,7 @@ Windows 환경에서는 별도의 무거운 런타임 없이 파이썬 기본 GU
    ```
 2. `run_windows.bat`을 더블클릭하거나 아래 명령어로 실행합니다:
    ```cmd
-   python screenpen_windows.py
+   py -3 screenpen_windows.py
    ```
 
 ### 단일 .exe 파일로 만들기 (선택 사항)
@@ -63,9 +63,10 @@ pyinstaller --noconsole --onefile windows/screenpen_windows.py -n ScreenPen
 - `Ctrl` + `Alt` + `3`: **스포트라이트 (Spotlight)**
 - `Ctrl` + `Alt` + `5`: **지우개 (Eraser)**
 - `Ctrl` + `Z`: **되돌리기 (Undo)**
-- `Ctrl` + `Alt` + `~`: **전체 지우기 (Clear All)**
+- `` Ctrl + Alt + ` ``: **전체 지우기 (Clear All)**
+- `Ctrl` + `Alt` + `O`: **단축키 안내 접기/펼치기**
 - `Escape` 또는 **우클릭**: 일반 클릭 모드로 복귀
-- 화면 하단의 플로팅 툴바를 마우스로 드래그하여 원하는 위치로 이동할 수 있습니다.
+- 툴바에서 펜과 형광펜 색상을 선택하고 Windows 돋보기를 열 수 있습니다. 패널 제목을 드래그하면 위치를 옮길 수 있습니다.
 
 ---
 
